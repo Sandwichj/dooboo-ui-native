@@ -137,7 +137,6 @@ const Slider: FC<Props> = ({
             maxValue,
             step,
           });
-
           const percent = getPercentByPositionX({
             positionX: gestureState.moveX - sliderPositionX,
             sliderWidth,
